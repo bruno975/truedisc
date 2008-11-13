@@ -1,0 +1,63 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = NSObject; LANGUAGE = ObjC; }, 
+        {
+            ACTIONS = {checkForUpdates = id; closeProfileInfoSheet = id; }; 
+            CLASS = SUUpdater; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                checkForUpdatesText = NSTextField; 
+                delegate = id; 
+                profileMoreInfoButton = NSButton; 
+                profileMoreInfoView = NSView; 
+                profileMoreInfoWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {checkForUpdates = id; showBuyPageInBrowser = id; showHelpInBrowser = id; }; 
+            CLASS = TrueDisc; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {updateChecker = id; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = TrueDiscController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutButton = TrueDiscNavigationButton; 
+                burnButton = TrueDiscNavigationButton; 
+                helpButton = TrueDiscNavigationButton; 
+                licenseButton = TrueDiscNavigationButton; 
+                navigationView = TrueDiscNavigationView; 
+                recoverButton = TrueDiscNavigationButton; 
+                trueDiscView = TrueDiscView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = TrueDiscNavigationButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = TrueDiscNavigationText; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            CLASS = TrueDiscNavigationView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutText = TrueDiscNavigationText; 
+                burnText = TrueDiscNavigationText; 
+                helpText = TrueDiscNavigationText; 
+                licenseText = TrueDiscNavigationText; 
+                restoreText = TrueDiscNavigationText; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TrueDiscView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bannerTextView = NSTextView; navView = TrueDiscNavigationView; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = TrueDiscWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

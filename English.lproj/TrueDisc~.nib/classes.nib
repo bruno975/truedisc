@@ -1,0 +1,111 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = NSLevelIndicator; LANGUAGE = ObjC; SUPERCLASS = NSControl; }, 
+        {CLASS = TrueDisc; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = TrueDiscAnimationView; LANGUAGE = ObjC; SUPERCLASS = TrueDiscView; }, 
+        {
+            CLASS = TrueDiscAnimationWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = TrueDiscWindow; 
+        }, 
+        {CLASS = TrueDiscBackgroundView; LANGUAGE = ObjC; SUPERCLASS = TrueDiscView; }, 
+        {
+            CLASS = TrueDiscBackgroundWindow; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = TrueDiscWindow; 
+        }, 
+        {
+            CLASS = TrueDiscBurnAnimationView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                generatingEncodingDataText = NSTextField; 
+                interleavingDataText = NSTextField; 
+                readingFileDataText = NSTextField; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TrueDiscBurnMenuView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                cdrText = TrueDiscNavigationText; 
+                dvdplusrText = TrueDiscNavigationText; 
+                dvdplusrdoublelayerText = TrueDiscNavigationText; 
+                dvdrText = TrueDiscNavigationText; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                about = id; 
+                beginBurnSession = id; 
+                burn = id; 
+                chooseBurnDiscFormat = id; 
+                chooseBurnFile = id; 
+                help = id; 
+                license = id; 
+                purchase = id; 
+                restore = id; 
+            }; 
+            CLASS = TrueDiscController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                animationView = TrueDiscAnimationView; 
+                animationWindow = TrueDiscAnimationWindow; 
+                navigationView = TrueDiscNavigationView; 
+                uiView = TrueDiscUserInterfaceView; 
+                uiWindow = TrueDiscWindow; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = TrueDiscLogoView; LANGUAGE = ObjC; SUPERCLASS = TrueDiscView; }, 
+        {
+            CLASS = TrueDiscMainMenuView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                burnText = TrueDiscNavigationText; 
+                licenseText = TrueDiscNavigationText; 
+                restoreText = TrueDiscNavigationText; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = TrueDiscNavigationButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = TrueDiscNavigationText; LANGUAGE = ObjC; SUPERCLASS = NSTextField; }, 
+        {
+            CLASS = TrueDiscNavigationView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                aboutText = TrueDiscNavigationText; 
+                burnText = TrueDiscNavigationText; 
+                helpText = TrueDiscNavigationText; 
+                licenseText = TrueDiscNavigationText; 
+                restoreText = TrueDiscNavigationText; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            CLASS = TrueDiscUserInterfaceView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                bannerTextView = NSTextView; 
+                burnAnimationView = TrueDiscBurnAnimationView; 
+                burnMenuView = TrueDiscBurnMenuView; 
+                burningTextView = NSTextField; 
+                mainMenuView = TrueDiscMainMenuView; 
+                navView = TrueDiscNavigationView; 
+                readyToBurnTextView = NSTextField; 
+                tabView = NSTabView; 
+            }; 
+            SUPERCLASS = TrueDiscView; 
+        }, 
+        {
+            CLASS = TrueDiscView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {bannerTextView = NSTextView; navView = TrueDiscNavigationView; }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = TrueDiscWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

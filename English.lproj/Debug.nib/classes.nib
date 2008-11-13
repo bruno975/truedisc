@@ -1,0 +1,31 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {about = id; burn = id; help = id; license = id; restore = id; }; 
+            CLASS = TrueDiscController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                animationView = TrueDiscAnimationView; 
+                animationWindow = TrueDiscAnimationWindow; 
+                backgroundView = TrueDiscBackgroundView; 
+                navigationView = TrueDiscNavigationView; 
+                uiView = TrueDiscUserInterfaceView; 
+                uiWindow = TrueDiscWindow; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {
+            CLASS = TrueDiscStateDebugController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                historyVariablesForm = NSForm; 
+                logButton = NSButton; 
+                stepOrContinuousRadioButtons = NSMatrix; 
+                variablesForm = NSForm; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,1051 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8E43B46A0B890E6400CB2ADA /* DSBurnDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4690B890E6400CB2ADA /* DSBurnDataProvider.m */; };
+		8E43B4940B890F2200CB2ADA /* DSBurnInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4930B890F2200CB2ADA /* DSBurnInfo.m */; };
+		8E43B4A00B890FAA00CB2ADA /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49E0B890FAA00CB2ADA /* DiscRecording.framework */; };
+		8E43B4A10B890FAA00CB2ADA /* DiscRecordingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49F0B890FAA00CB2ADA /* DiscRecordingUI.framework */; };
+		8E43B4C90B89116100CB2ADA /* TrueDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4C80B89116100CB2ADA /* TrueDisc.m */; };
+		8E43B7D60B895D8000CB2ADA /* fec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B7D40B895D8000CB2ADA /* fec.m */; };
+		8E43BE030B8BA6D800CB2ADA /* DSTrueDiscDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43BE020B8BA6D800CB2ADA /* DSTrueDiscDecoder.m */; };
+		8E43C6960B8FB37500CB2ADA /* NSString+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C6950B8FB37500CB2ADA /* NSString+DSExtensions.m */; };
+		8E74BB690B98E0A200824300 /* TrueDisc File Restore.app in Resources */ = {isa = PBXBuildFile; fileRef = 8E74BB5C0B98E08800824300 /* TrueDisc File Restore.app */; };
+		8E78C1ED0B963C990075013C /* truedisc-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E78C1EC0B963C990075013C /* truedisc-icon.icns */; };
+		8E78C2200B96400A0075013C /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8E78C2210B96400A0075013C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8E78C2240B96400A0075013C /* truedisc-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8E78C1EC0B963C990075013C /* truedisc-icon.icns */; };
+		8E78C2280B96400A0075013C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8E78C2400B96400A0075013C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8E78C2410B96400A0075013C /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49E0B890FAA00CB2ADA /* DiscRecording.framework */; };
+		8E78C2420B96400A0075013C /* DiscRecordingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49F0B890FAA00CB2ADA /* DiscRecordingUI.framework */; };
+		8E78C2440B96400A0075013C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8D2F60B94844000487EC3 /* Sparkle.framework */; };
+		8E78C26D0B96419E0075013C /* TrueDisc.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4C80B89116100CB2ADA /* TrueDisc.m */; };
+		8E78C26F0B9641A10075013C /* TrueDiscView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF963C0B91241000821B05 /* TrueDiscView.m */; };
+		8E78C2700B9641A20075013C /* TrueDiscUserInterfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CE130B93EFA700487EC3 /* TrueDiscUserInterfaceView.m */; };
+		8E78C2710B9641A30075013C /* TrueDiscNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF97B50B91859000821B05 /* TrueDiscNavigationView.m */; };
+		8E78C2720B9641A40075013C /* TrueDiscNavigationText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF9B940B92CFE900821B05 /* TrueDiscNavigationText.m */; };
+		8E78C2730B9641A60075013C /* TrueDiscMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D3BA0B94A0E500487EC3 /* TrueDiscMainMenuView.m */; };
+		8E78C2740B9641A70075013C /* TrueDiscBurnMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA60A040B95AAD400C40305 /* TrueDiscBurnMenuView.m */; };
+		8E78C2750B9641A80075013C /* TrueDiscBurnAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD2DC90B95B86400F50C67 /* TrueDiscBurnAnimationView.m */; };
+		8E78C2760B9641AA0075013C /* TrueDiscWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF96990B912D5900821B05 /* TrueDiscWindow.m */; };
+		8E78C2770B9641AB0075013C /* TrueDiscAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CDEF0B93EE0900487EC3 /* TrueDiscAnimationView.m */; };
+		8E78C2780B9641AC0075013C /* TrueDiscAnimationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CDD10B93ED7100487EC3 /* TrueDiscAnimationWindow.m */; };
+		8E78C2790B9641AE0075013C /* DSBurnInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4930B890F2200CB2ADA /* DSBurnInfo.m */; };
+		8E78C27A0B9641AF0075013C /* DSTrueDiscDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43BE020B8BA6D800CB2ADA /* DSTrueDiscDecoder.m */; };
+		8E78C27B0B9641B00075013C /* DSBurnDataProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B4690B890E6400CB2ADA /* DSBurnDataProvider.m */; };
+		8E78C27C0B9641B10075013C /* fec.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43B7D40B895D8000CB2ADA /* fec.m */; };
+		8E78C27D0B9641B20075013C /* NSString+DSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E43C6950B8FB37500CB2ADA /* NSString+DSExtensions.m */; };
+		8E78C27E0B9641B40075013C /* NSColor+TrueDiscExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF995F0B91991F00821B05 /* NSColor+TrueDiscExtensions.m */; };
+		8E78C2A40B9641CF0075013C /* ATAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D0F90B945A7D00487EC3 /* ATAnimation.m */; };
+		8E78C2A50B9641D00075013C /* ATAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D0FB0B945A7D00487EC3 /* ATAnimationGroup.m */; };
+		8E78C2B40B9642880075013C /* main-LCd.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E78C2B00B9642760075013C /* main-LCd.m */; };
+		8E78C2BB0B9642F30075013C /* SubBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8E78C2600B9640AA0075013C /* SubBundle.bundle */; };
+		8E78C30B0B9643740075013C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8E78C30C0B9643750075013C /* DiscRecordingUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49F0B890FAA00CB2ADA /* DiscRecordingUI.framework */; };
+		8E78C3170B9643760075013C /* DiscRecording.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B49E0B890FAA00CB2ADA /* DiscRecording.framework */; };
+		8E78C3420B9643780075013C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8D2F60B94844000487EC3 /* Sparkle.framework */; };
+		8E78C40C0B9657E70075013C /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 8E78C40B0B9657E70075013C /* README.TXT */; };
+		8E8E5C140BA642D800F51E0E /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8D2F60B94844000487EC3 /* Sparkle.framework */; };
+		8E8E5C260BA642E400F51E0E /* LicenseControl.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB0F8BE0BA5F9A600DD86AF /* LicenseControl.framework */; };
+		8E9437460B931A1E00BE38B8 /* TrueDisc.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9437440B931A1E00BE38B8 /* TrueDisc.nib */; };
+		8EA34B9A0B97962E009A57F6 /* TrueDiscLogoView.h in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA34B980B97962E009A57F6 /* TrueDiscLogoView.h */; };
+		8EA34B9B0B97962E009A57F6 /* TrueDiscLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA34B990B97962E009A57F6 /* TrueDiscLogoView.m */; };
+		8EA34B9C0B97962E009A57F6 /* TrueDiscLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA34B990B97962E009A57F6 /* TrueDiscLogoView.m */; };
+		8EA60A060B95AAD400C40305 /* TrueDiscBurnMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA60A040B95AAD400C40305 /* TrueDiscBurnMenuView.m */; };
+		8EB0F8BF0BA5F9A600DD86AF /* LicenseControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB0F8BE0BA5F9A600DD86AF /* LicenseControl.framework */; };
+		8EB0F8C00BA5F9A600DD86AF /* LicenseControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB0F8BE0BA5F9A600DD86AF /* LicenseControl.framework */; };
+		8EB7E39E0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7E39D0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m */; };
+		8EB7E3E30B974796006F7B0F /* pointingHand.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E3E10B974796006F7B0F /* pointingHand.tiff */; };
+		8EB7E3E40B9747A4006F7B0F /* pointingHand.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E3E10B974796006F7B0F /* pointingHand.tiff */; };
+		8EB7E42A0B9751DA006F7B0F /* NSCursor+TrueDiscExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7E39D0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m */; };
+		8EB7E46F0B9754AA006F7B0F /* README.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 8E78C40B0B9657E70075013C /* README.TXT */; };
+		8EB7E6D50B977CE2006F7B0F /* TrueDiscController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF99E10B91A12B00821B05 /* TrueDiscController.m */; };
+		8EB7E6F40B977F54006F7B0F /* TrueDisc.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8E9437440B931A1E00BE38B8 /* TrueDisc.nib */; };
+		8EB7E7B30B97896D006F7B0F /* UKUpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7E7B20B97896D006F7B0F /* UKUpdateChecker.m */; };
+		8EB7E7B40B97896D006F7B0F /* UKUpdateChecker.h in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB7E7B10B97896D006F7B0F /* UKUpdateChecker.h */; };
+		8EB7E7B50B97896D006F7B0F /* UKUpdateChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB7E7B20B97896D006F7B0F /* UKUpdateChecker.m */; };
+		8EB7E7C30B978A83006F7B0F /* TrueDiscController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF99E10B91A12B00821B05 /* TrueDiscController.m */; };
+		8EB7E7F50B978E92006F7B0F /* MacPAD.url in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E7F40B978E92006F7B0F /* MacPAD.url */; };
+		8EB7E7F60B978E92006F7B0F /* MacPAD.url in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E7F40B978E92006F7B0F /* MacPAD.url */; };
+		8EB7E7F90B978EA8006F7B0F /* UKUpdateChecker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E7F70B978EA8006F7B0F /* UKUpdateChecker.strings */; };
+		8EB7E7FA0B978EA8006F7B0F /* UKUpdateChecker.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E7F70B978EA8006F7B0F /* UKUpdateChecker.strings */; };
+		8EB7E8030B978F45006F7B0F /* UKFeedbackProvider.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E8010B978F45006F7B0F /* UKFeedbackProvider.nib */; };
+		8EB7E8040B978F45006F7B0F /* UKFeedbackProvider.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E8010B978F45006F7B0F /* UKFeedbackProvider.nib */; };
+		8EB7E80F0B97928E006F7B0F /* truedisc-logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E80E0B97928E006F7B0F /* truedisc-logo.pdf */; };
+		8EB7E8100B97928E006F7B0F /* truedisc-logo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 8EB7E80E0B97928E006F7B0F /* truedisc-logo.pdf */; };
+		8EBF963D0B91241000821B05 /* TrueDiscView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF963C0B91241000821B05 /* TrueDiscView.m */; };
+		8EBF969A0B912D5900821B05 /* TrueDiscWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF96990B912D5900821B05 /* TrueDiscWindow.m */; };
+		8EBF97B60B91859000821B05 /* TrueDiscNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF97B50B91859000821B05 /* TrueDiscNavigationView.m */; };
+		8EBF99600B91991F00821B05 /* NSColor+TrueDiscExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF995F0B91991F00821B05 /* NSColor+TrueDiscExtensions.m */; };
+		8EBF9AE00B91C1B300821B05 /* TrueDiscStateDebugController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF9ADF0B91C1B300821B05 /* TrueDiscStateDebugController.m */; };
+		8EBF9AE50B91C26100821B05 /* Debug.nib in Resources */ = {isa = PBXBuildFile; fileRef = 8EBF9AE30B91C26100821B05 /* Debug.nib */; };
+		8EBF9AF20BB2D0B90005C0C7 /* fec.h in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 8E43B7D50B895D8000CB2ADA /* fec.h */; };
+		8EBF9B950B92CFE900821B05 /* TrueDiscNavigationText.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBF9B940B92CFE900821B05 /* TrueDiscNavigationText.m */; };
+		8ECD2DCB0B95B86400F50C67 /* TrueDiscBurnAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD2DC90B95B86400F50C67 /* TrueDiscBurnAnimationView.m */; };
+		8EE8CDD20B93ED7100487EC3 /* TrueDiscAnimationWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CDD10B93ED7100487EC3 /* TrueDiscAnimationWindow.m */; };
+		8EE8CDF00B93EE0900487EC3 /* TrueDiscAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CDEF0B93EE0900487EC3 /* TrueDiscAnimationView.m */; };
+		8EE8CE140B93EFA700487EC3 /* TrueDiscUserInterfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8CE130B93EFA700487EC3 /* TrueDiscUserInterfaceView.m */; };
+		8EE8D0FC0B945A7D00487EC3 /* ATAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D0F90B945A7D00487EC3 /* ATAnimation.m */; };
+		8EE8D0FD0B945A7D00487EC3 /* ATAnimationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D0FB0B945A7D00487EC3 /* ATAnimationGroup.m */; };
+		8EE8D2F70B94844000487EC3 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE8D2F60B94844000487EC3 /* Sparkle.framework */; };
+		8EE8D3BC0B94A0E500487EC3 /* TrueDiscMainMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE8D3BA0B94A0E500487EC3 /* TrueDiscMainMenuView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E74BB5B0B98E08800824300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E74BB570B98E08800824300 /* TrueDiscLauncher.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = TrueDiscLauncher;
+		};
+		8E74BB670B98E09800824300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E74BB570B98E08800824300 /* TrueDiscLauncher.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = TrueDiscLauncher;
+		};
+		8E78C2690B9640E70075013C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E78C25F0B9640AA0075013C;
+			remoteInfo = SubBundle;
+		};
+		8EB0F7DB0BA4A7EF00DD86AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE8D2DD0B9481D300487EC3 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = Sparkle;
+		};
+		8EB0F7DD0BA4A7EF00DD86AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EE8D2DD0B9481D300487EC3 /* Sparkle.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 61B5F90209C4CEE200B25A18;
+			remoteInfo = "Sparkle Test App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E78C2250B96400A0075013C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8E8E5C260BA642E400F51E0E /* LicenseControl.framework in Copy Frameworks */,
+				8E8E5C140BA642D800F51E0E /* Sparkle.framework in Copy Frameworks */,
+				8EBF9AF20BB2D0B90005C0C7 /* fec.h in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EE8D2EA0B9481F600487EC3 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8EB7E7B40B97896D006F7B0F /* UKUpdateChecker.h in Copy Frameworks */,
+				8EA34B9A0B97962E009A57F6 /* TrueDiscLogoView.h in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* TrueDisc_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDisc_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* TrueDisc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrueDisc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E43B4680B890E6400CB2ADA /* DSBurnDataProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBurnDataProvider.h; sourceTree = "<group>"; };
+		8E43B4690B890E6400CB2ADA /* DSBurnDataProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBurnDataProvider.m; sourceTree = "<group>"; };
+		8E43B46D0B890E6F00CB2ADA /* DSDataEncoderPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDataEncoderPool.h; sourceTree = "<group>"; };
+		8E43B46E0B890E6F00CB2ADA /* DSDataEncoderPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDataEncoderPool.m; sourceTree = "<group>"; wrapsLines = 1; };
+		8E43B4720B890E7900CB2ADA /* DSDataEncoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDataEncoder.h; sourceTree = "<group>"; };
+		8E43B4730B890E7900CB2ADA /* DSDataEncoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDataEncoder.m; sourceTree = "<group>"; };
+		8E43B4770B890E8300CB2ADA /* DSDataBufferPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDataBufferPool.h; sourceTree = "<group>"; };
+		8E43B4780B890E8300CB2ADA /* DSDataBufferPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDataBufferPool.m; sourceTree = "<group>"; };
+		8E43B47C0B890E8B00CB2ADA /* DSDataBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDataBuffer.h; sourceTree = "<group>"; };
+		8E43B47D0B890E8B00CB2ADA /* DSDataBuffer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDataBuffer.m; sourceTree = "<group>"; };
+		8E43B4810B890E9700CB2ADA /* DSDiskTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSDiskTransaction.h; sourceTree = "<group>"; };
+		8E43B4820B890E9700CB2ADA /* DSDiskTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSDiskTransaction.m; sourceTree = "<group>"; };
+		8E43B4920B890F2200CB2ADA /* DSBurnInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSBurnInfo.h; sourceTree = "<group>"; };
+		8E43B4930B890F2200CB2ADA /* DSBurnInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSBurnInfo.m; sourceTree = "<group>"; };
+		8E43B49E0B890FAA00CB2ADA /* DiscRecording.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecording.framework; path = /System/Library/Frameworks/DiscRecording.framework; sourceTree = "<absolute>"; };
+		8E43B49F0B890FAA00CB2ADA /* DiscRecordingUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiscRecordingUI.framework; path = /System/Library/Frameworks/DiscRecordingUI.framework; sourceTree = "<absolute>"; };
+		8E43B4C70B89116100CB2ADA /* TrueDisc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDisc.h; sourceTree = "<group>"; };
+		8E43B4C80B89116100CB2ADA /* TrueDisc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDisc.m; sourceTree = "<group>"; };
+		8E43B7D40B895D8000CB2ADA /* fec.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = fec.m; sourceTree = "<group>"; };
+		8E43B7D50B895D8000CB2ADA /* fec.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fec.h; sourceTree = "<group>"; };
+		8E43BE010B8BA6D800CB2ADA /* DSTrueDiscDecoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSTrueDiscDecoder.h; sourceTree = "<group>"; };
+		8E43BE020B8BA6D800CB2ADA /* DSTrueDiscDecoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSTrueDiscDecoder.m; sourceTree = "<group>"; };
+		8E43C6940B8FB37500CB2ADA /* NSString+DSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DSExtensions.h"; sourceTree = "<group>"; };
+		8E43C6950B8FB37500CB2ADA /* NSString+DSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DSExtensions.m"; sourceTree = "<group>"; };
+		8E43C77A0B8FC6B700CB2ADA /* libssl.0.9.7.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.0.9.7.dylib; path = /usr/lib/libssl.0.9.7.dylib; sourceTree = "<absolute>"; };
+		8E74BB570B98E08800824300 /* TrueDiscLauncher.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TrueDiscLauncher.xcodeproj; path = ../TrueDiscLauncher/TrueDiscLauncher.xcodeproj; sourceTree = "<group>"; };
+		8E78C1EC0B963C990075013C /* truedisc-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "truedisc-icon.icns"; sourceTree = "<group>"; };
+		8E78C2480B96400A0075013C /* TrueDisc.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TrueDisc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E78C24A0B96400A0075013C /* Info-LCd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Info-LCd.plist"; sourceTree = "<group>"; };
+		8E78C2600B9640AA0075013C /* SubBundle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SubBundle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E78C2610B9640AA0075013C /* SubBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "SubBundle-Info.plist"; sourceTree = "<group>"; };
+		8E78C2B00B9642760075013C /* main-LCd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "main-LCd.m"; sourceTree = "<group>"; };
+		8E78C40B0B9657E70075013C /* README.TXT */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = README.TXT; sourceTree = "<group>"; };
+		8E9437450B931A1E00BE38B8 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/TrueDisc.nib; sourceTree = "<group>"; };
+		8EA34B980B97962E009A57F6 /* TrueDiscLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscLogoView.h; sourceTree = "<group>"; };
+		8EA34B990B97962E009A57F6 /* TrueDiscLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscLogoView.m; sourceTree = "<group>"; };
+		8EA60A030B95AAD400C40305 /* TrueDiscBurnMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscBurnMenuView.h; sourceTree = "<group>"; };
+		8EA60A040B95AAD400C40305 /* TrueDiscBurnMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscBurnMenuView.m; sourceTree = "<group>"; };
+		8EB0F8BE0BA5F9A600DD86AF /* LicenseControl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LicenseControl.framework; path = ../../LicenseControl/2.11/LicenseControl.framework; sourceTree = SOURCE_ROOT; };
+		8EB7E39C0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCursor+TrueDiscExtensions.h"; sourceTree = "<group>"; };
+		8EB7E39D0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCursor+TrueDiscExtensions.m"; sourceTree = "<group>"; };
+		8EB7E3E10B974796006F7B0F /* pointingHand.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = pointingHand.tiff; sourceTree = "<group>"; };
+		8EB7E7B10B97896D006F7B0F /* UKUpdateChecker.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UKUpdateChecker.h; sourceTree = "<group>"; };
+		8EB7E7B20B97896D006F7B0F /* UKUpdateChecker.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UKUpdateChecker.m; sourceTree = "<group>"; };
+		8EB7E7F40B978E92006F7B0F /* MacPAD.url */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = MacPAD.url; sourceTree = "<group>"; };
+		8EB7E7F80B978EA8006F7B0F /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/UKUpdateChecker.strings; sourceTree = "<group>"; };
+		8EB7E8020B978F45006F7B0F /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/UKFeedbackProvider.nib; sourceTree = "<group>"; };
+		8EB7E8050B978F56006F7B0F /* UKFeedbackProvider.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = UKFeedbackProvider.h; sourceTree = "<group>"; };
+		8EB7E8060B978F56006F7B0F /* UKFeedbackProvider.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = UKFeedbackProvider.m; sourceTree = "<group>"; };
+		8EB7E80E0B97928E006F7B0F /* truedisc-logo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "truedisc-logo.pdf"; sourceTree = "<group>"; };
+		8EBF963B0B91241000821B05 /* TrueDiscView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscView.h; sourceTree = "<group>"; };
+		8EBF963C0B91241000821B05 /* TrueDiscView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscView.m; sourceTree = "<group>"; };
+		8EBF96980B912D5900821B05 /* TrueDiscWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscWindow.h; sourceTree = "<group>"; };
+		8EBF96990B912D5900821B05 /* TrueDiscWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscWindow.m; sourceTree = "<group>"; };
+		8EBF97B40B91859000821B05 /* TrueDiscNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscNavigationView.h; sourceTree = "<group>"; };
+		8EBF97B50B91859000821B05 /* TrueDiscNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscNavigationView.m; sourceTree = "<group>"; };
+		8EBF995E0B91991F00821B05 /* NSColor+TrueDiscExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSColor+TrueDiscExtensions.h"; sourceTree = "<group>"; };
+		8EBF995F0B91991F00821B05 /* NSColor+TrueDiscExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSColor+TrueDiscExtensions.m"; sourceTree = "<group>"; };
+		8EBF99E00B91A12B00821B05 /* TrueDiscController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscController.h; sourceTree = "<group>"; };
+		8EBF99E10B91A12B00821B05 /* TrueDiscController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscController.m; sourceTree = "<group>"; };
+		8EBF9ADE0B91C1B300821B05 /* TrueDiscStateDebugController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscStateDebugController.h; sourceTree = "<group>"; };
+		8EBF9ADF0B91C1B300821B05 /* TrueDiscStateDebugController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscStateDebugController.m; sourceTree = "<group>"; };
+		8EBF9AE40B91C26100821B05 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/Debug.nib; sourceTree = "<group>"; };
+		8EBF9B930B92CFE900821B05 /* TrueDiscNavigationText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscNavigationText.h; sourceTree = "<group>"; };
+		8EBF9B940B92CFE900821B05 /* TrueDiscNavigationText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscNavigationText.m; sourceTree = "<group>"; };
+		8ECD2DC80B95B86400F50C67 /* TrueDiscBurnAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscBurnAnimationView.h; sourceTree = "<group>"; };
+		8ECD2DC90B95B86400F50C67 /* TrueDiscBurnAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscBurnAnimationView.m; sourceTree = "<group>"; };
+		8EE8CDD00B93ED7100487EC3 /* TrueDiscAnimationWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscAnimationWindow.h; sourceTree = "<group>"; };
+		8EE8CDD10B93ED7100487EC3 /* TrueDiscAnimationWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscAnimationWindow.m; sourceTree = "<group>"; };
+		8EE8CDEE0B93EE0900487EC3 /* TrueDiscAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscAnimationView.h; sourceTree = "<group>"; };
+		8EE8CDEF0B93EE0900487EC3 /* TrueDiscAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscAnimationView.m; sourceTree = "<group>"; };
+		8EE8CE120B93EFA700487EC3 /* TrueDiscUserInterfaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscUserInterfaceView.h; sourceTree = "<group>"; };
+		8EE8CE130B93EFA700487EC3 /* TrueDiscUserInterfaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscUserInterfaceView.m; sourceTree = "<group>"; };
+		8EE8D0DE0B94537100487EC3 /* TrueDiscDataSlice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscDataSlice.h; sourceTree = "<group>"; };
+		8EE8D0DF0B94537100487EC3 /* TrueDiscDataSlice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscDataSlice.m; sourceTree = "<group>"; };
+		8EE8D0F80B945A7D00487EC3 /* ATAnimation.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ATAnimation.h; sourceTree = "<group>"; };
+		8EE8D0F90B945A7D00487EC3 /* ATAnimation.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ATAnimation.m; sourceTree = "<group>"; wrapsLines = 1; };
+		8EE8D0FA0B945A7D00487EC3 /* ATAnimationGroup.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ATAnimationGroup.h; sourceTree = "<group>"; };
+		8EE8D0FB0B945A7D00487EC3 /* ATAnimationGroup.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ATAnimationGroup.m; sourceTree = "<group>"; };
+		8EE8D2DD0B9481D300487EC3 /* Sparkle.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Sparkle.xcodeproj; path = ../../sparkleplus/Sparkle.xcodeproj; sourceTree = SOURCE_ROOT; };
+		8EE8D2F60B94844000487EC3 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = ../../Build/Debug/Sparkle.framework; sourceTree = SOURCE_ROOT; };
+		8EE8D3B90B94A0E500487EC3 /* TrueDiscMainMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrueDiscMainMenuView.h; sourceTree = "<group>"; };
+		8EE8D3BA0B94A0E500487EC3 /* TrueDiscMainMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrueDiscMainMenuView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				8E43B4A00B890FAA00CB2ADA /* DiscRecording.framework in Frameworks */,
+				8E43B4A10B890FAA00CB2ADA /* DiscRecordingUI.framework in Frameworks */,
+				8EE8D2F70B94844000487EC3 /* Sparkle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C23F0B96400A0075013C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78C2400B96400A0075013C /* Cocoa.framework in Frameworks */,
+				8E78C2410B96400A0075013C /* DiscRecording.framework in Frameworks */,
+				8E78C2420B96400A0075013C /* DiscRecordingUI.framework in Frameworks */,
+				8E78C2440B96400A0075013C /* Sparkle.framework in Frameworks */,
+				8EB0F8C00BA5F9A600DD86AF /* LicenseControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C25E0B9640AA0075013C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78C30B0B9643740075013C /* Cocoa.framework in Frameworks */,
+				8E78C30C0B9643750075013C /* DiscRecordingUI.framework in Frameworks */,
+				8E78C3170B9643760075013C /* DiscRecording.framework in Frameworks */,
+				8E78C3420B9643780075013C /* Sparkle.framework in Frameworks */,
+				8EB0F8BF0BA5F9A600DD86AF /* LicenseControl.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8E43B4C70B89116100CB2ADA /* TrueDisc.h */,
+				8E43B4C80B89116100CB2ADA /* TrueDisc.m */,
+				8EBF99E00B91A12B00821B05 /* TrueDiscController.h */,
+				8EBF99E10B91A12B00821B05 /* TrueDiscController.m */,
+				8EBF9ADE0B91C1B300821B05 /* TrueDiscStateDebugController.h */,
+				8EBF9ADF0B91C1B300821B05 /* TrueDiscStateDebugController.m */,
+				8EBF963B0B91241000821B05 /* TrueDiscView.h */,
+				8EBF963C0B91241000821B05 /* TrueDiscView.m */,
+				8EA34B980B97962E009A57F6 /* TrueDiscLogoView.h */,
+				8EA34B990B97962E009A57F6 /* TrueDiscLogoView.m */,
+				8EE8CE120B93EFA700487EC3 /* TrueDiscUserInterfaceView.h */,
+				8EE8CE130B93EFA700487EC3 /* TrueDiscUserInterfaceView.m */,
+				8EBF97B40B91859000821B05 /* TrueDiscNavigationView.h */,
+				8EBF97B50B91859000821B05 /* TrueDiscNavigationView.m */,
+				8EBF9B930B92CFE900821B05 /* TrueDiscNavigationText.h */,
+				8EBF9B940B92CFE900821B05 /* TrueDiscNavigationText.m */,
+				8EE8D3B90B94A0E500487EC3 /* TrueDiscMainMenuView.h */,
+				8EE8D3BA0B94A0E500487EC3 /* TrueDiscMainMenuView.m */,
+				8EA60A030B95AAD400C40305 /* TrueDiscBurnMenuView.h */,
+				8EA60A040B95AAD400C40305 /* TrueDiscBurnMenuView.m */,
+				8ECD2DC80B95B86400F50C67 /* TrueDiscBurnAnimationView.h */,
+				8ECD2DC90B95B86400F50C67 /* TrueDiscBurnAnimationView.m */,
+				8EBF96980B912D5900821B05 /* TrueDiscWindow.h */,
+				8EBF96990B912D5900821B05 /* TrueDiscWindow.m */,
+				8EE8CDEE0B93EE0900487EC3 /* TrueDiscAnimationView.h */,
+				8EE8CDEF0B93EE0900487EC3 /* TrueDiscAnimationView.m */,
+				8EE8CDD00B93ED7100487EC3 /* TrueDiscAnimationWindow.h */,
+				8EE8CDD10B93ED7100487EC3 /* TrueDiscAnimationWindow.m */,
+				8E43B4920B890F2200CB2ADA /* DSBurnInfo.h */,
+				8E43B4930B890F2200CB2ADA /* DSBurnInfo.m */,
+				8E43BE010B8BA6D800CB2ADA /* DSTrueDiscDecoder.h */,
+				8E43BE020B8BA6D800CB2ADA /* DSTrueDiscDecoder.m */,
+				8E43B4680B890E6400CB2ADA /* DSBurnDataProvider.h */,
+				8E43B4690B890E6400CB2ADA /* DSBurnDataProvider.m */,
+				8E43B7D50B895D8000CB2ADA /* fec.h */,
+				8E43B7D40B895D8000CB2ADA /* fec.m */,
+				8E43C6940B8FB37500CB2ADA /* NSString+DSExtensions.h */,
+				8E43C6950B8FB37500CB2ADA /* NSString+DSExtensions.m */,
+				8EBF995E0B91991F00821B05 /* NSColor+TrueDiscExtensions.h */,
+				8EBF995F0B91991F00821B05 /* NSColor+TrueDiscExtensions.m */,
+				8EB7E39C0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.h */,
+				8EB7E39D0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m */,
+				8E43BDF40B8BA5E400CB2ADA /* Unused */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8D2F60B94844000487EC3 /* Sparkle.framework */,
+				8E43C77A0B8FC6B700CB2ADA /* libssl.0.9.7.dylib */,
+				8E43B49E0B890FAA00CB2ADA /* DiscRecording.framework */,
+				8E43B49F0B890FAA00CB2ADA /* DiscRecordingUI.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				8EB0F8BE0BA5F9A600DD86AF /* LicenseControl.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* TrueDisc.app */,
+				8E78C2480B96400A0075013C /* TrueDisc.app */,
+				8E78C2600B9640AA0075013C /* SubBundle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* TrueDisc */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				8EE8D2DD0B9481D300487EC3 /* Sparkle.xcodeproj */,
+				8E74BB570B98E08800824300 /* TrueDiscLauncher.xcodeproj */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				8E78C2610B9640AA0075013C /* SubBundle-Info.plist */,
+			);
+			name = TrueDisc;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* TrueDisc_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				8E78C2B00B9642760075013C /* main-LCd.m */,
+				8EE8D0F80B945A7D00487EC3 /* ATAnimation.h */,
+				8EE8D0F90B945A7D00487EC3 /* ATAnimation.m */,
+				8EE8D0FA0B945A7D00487EC3 /* ATAnimationGroup.h */,
+				8EE8D0FB0B945A7D00487EC3 /* ATAnimationGroup.m */,
+				8EB7E7B10B97896D006F7B0F /* UKUpdateChecker.h */,
+				8EB7E7B20B97896D006F7B0F /* UKUpdateChecker.m */,
+				8EB7E8050B978F56006F7B0F /* UKFeedbackProvider.h */,
+				8EB7E8060B978F56006F7B0F /* UKFeedbackProvider.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EB7E7F70B978EA8006F7B0F /* UKUpdateChecker.strings */,
+				8EB7E7F40B978E92006F7B0F /* MacPAD.url */,
+				8EB7E3E10B974796006F7B0F /* pointingHand.tiff */,
+				8E78C40B0B9657E70075013C /* README.TXT */,
+				8E78C1EC0B963C990075013C /* truedisc-icon.icns */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+				8E9437440B931A1E00BE38B8 /* TrueDisc.nib */,
+				8EB7E8010B978F45006F7B0F /* UKFeedbackProvider.nib */,
+				8EBF9AE30B91C26100821B05 /* Debug.nib */,
+				8E78C24A0B96400A0075013C /* Info-LCd.plist */,
+				8EB7E80E0B97928E006F7B0F /* truedisc-logo.pdf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E43BDF40B8BA5E400CB2ADA /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				8EE8D0DE0B94537100487EC3 /* TrueDiscDataSlice.h */,
+				8EE8D0DF0B94537100487EC3 /* TrueDiscDataSlice.m */,
+				8E43B46D0B890E6F00CB2ADA /* DSDataEncoderPool.h */,
+				8E43B46E0B890E6F00CB2ADA /* DSDataEncoderPool.m */,
+				8E43B4720B890E7900CB2ADA /* DSDataEncoder.h */,
+				8E43B4730B890E7900CB2ADA /* DSDataEncoder.m */,
+				8E43B4770B890E8300CB2ADA /* DSDataBufferPool.h */,
+				8E43B4780B890E8300CB2ADA /* DSDataBufferPool.m */,
+				8E43B47C0B890E8B00CB2ADA /* DSDataBuffer.h */,
+				8E43B47D0B890E8B00CB2ADA /* DSDataBuffer.m */,
+				8E43B4810B890E9700CB2ADA /* DSDiskTransaction.h */,
+				8E43B4820B890E9700CB2ADA /* DSDiskTransaction.m */,
+			);
+			name = Unused;
+			sourceTree = "<group>";
+		};
+		8E74BB580B98E08800824300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E74BB5C0B98E08800824300 /* TrueDisc File Restore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EB0F7D70BA4A7EF00DD86AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EB0F7DC0BA4A7EF00DD86AF /* Sparkle.framework */,
+				8EB0F7DE0BA4A7EF00DD86AF /* Sparkle Test App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TrueDisc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TrueDisc" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8EE8D2EA0B9481F600487EC3 /* Copy Frameworks */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TrueDisc;
+			productInstallPath = "$(HOME)/Applications";
+			productName = TrueDisc;
+			productReference = 8D1107320486CEB800E47090 /* TrueDisc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E78C21C0B96400A0075013C /* TrueDisc LCd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E78C2450B96400A0075013C /* Build configuration list for PBXNativeTarget "TrueDisc LCd" */;
+			buildPhases = (
+				8E78C21F0B96400A0075013C /* Resources */,
+				8E78C2250B96400A0075013C /* Copy Frameworks */,
+				8E78C2270B96400A0075013C /* Sources */,
+				8E78C23F0B96400A0075013C /* Frameworks */,
+				8E78C35F0B96442D0075013C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E78C26A0B9640E70075013C /* PBXTargetDependency */,
+				8E74BB680B98E09800824300 /* PBXTargetDependency */,
+			);
+			name = "TrueDisc LCd";
+			productInstallPath = "$(HOME)/Applications";
+			productName = TrueDisc;
+			productReference = 8E78C2480B96400A0075013C /* TrueDisc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E78C25F0B9640AA0075013C /* SubBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E78C2620B9640AA0075013C /* Build configuration list for PBXNativeTarget "SubBundle" */;
+			buildPhases = (
+				8E78C25C0B9640AA0075013C /* Resources */,
+				8E78C25D0B9640AA0075013C /* Sources */,
+				8E78C25E0B9640AA0075013C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SubBundle;
+			productName = SubBundle;
+			productReference = 8E78C2600B9640AA0075013C /* SubBundle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TrueDisc" */;
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* TrueDisc */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8EB0F7D70BA4A7EF00DD86AF /* Products */;
+					ProjectRef = 8EE8D2DD0B9481D300487EC3 /* Sparkle.xcodeproj */;
+				},
+				{
+					ProductGroup = 8E74BB580B98E08800824300 /* Products */;
+					ProjectRef = 8E74BB570B98E08800824300 /* TrueDiscLauncher.xcodeproj */;
+				},
+			);
+			targets = (
+				8D1107260486CEB800E47090 /* TrueDisc */,
+				8E78C21C0B96400A0075013C /* TrueDisc LCd */,
+				8E78C25F0B9640AA0075013C /* SubBundle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8E74BB5C0B98E08800824300 /* TrueDisc File Restore.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "TrueDisc File Restore.app";
+			remoteRef = 8E74BB5B0B98E08800824300 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8EB0F7DC0BA4A7EF00DD86AF /* Sparkle.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Sparkle.framework;
+			remoteRef = 8EB0F7DB0BA4A7EF00DD86AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8EB0F7DE0BA4A7EF00DD86AF /* Sparkle Test App.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "Sparkle Test App.app";
+			remoteRef = 8EB0F7DD0BA4A7EF00DD86AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				8EBF9AE50B91C26100821B05 /* Debug.nib in Resources */,
+				8E9437460B931A1E00BE38B8 /* TrueDisc.nib in Resources */,
+				8E78C1ED0B963C990075013C /* truedisc-icon.icns in Resources */,
+				8EB7E3E40B9747A4006F7B0F /* pointingHand.tiff in Resources */,
+				8EB7E46F0B9754AA006F7B0F /* README.TXT in Resources */,
+				8EB7E7F50B978E92006F7B0F /* MacPAD.url in Resources */,
+				8EB7E7F90B978EA8006F7B0F /* UKUpdateChecker.strings in Resources */,
+				8EB7E8030B978F45006F7B0F /* UKFeedbackProvider.nib in Resources */,
+				8EB7E80F0B97928E006F7B0F /* truedisc-logo.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C21F0B96400A0075013C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78C2200B96400A0075013C /* MainMenu.nib in Resources */,
+				8E78C2210B96400A0075013C /* InfoPlist.strings in Resources */,
+				8E78C2240B96400A0075013C /* truedisc-icon.icns in Resources */,
+				8E78C2BB0B9642F30075013C /* SubBundle.bundle in Resources */,
+				8E74BB690B98E0A200824300 /* TrueDisc File Restore.app in Resources */,
+				8E78C40C0B9657E70075013C /* README.TXT in Resources */,
+				8EB7E3E30B974796006F7B0F /* pointingHand.tiff in Resources */,
+				8EB7E6F40B977F54006F7B0F /* TrueDisc.nib in Resources */,
+				8EB7E7F60B978E92006F7B0F /* MacPAD.url in Resources */,
+				8EB7E7FA0B978EA8006F7B0F /* UKUpdateChecker.strings in Resources */,
+				8EB7E8040B978F45006F7B0F /* UKFeedbackProvider.nib in Resources */,
+				8EB7E8100B97928E006F7B0F /* truedisc-logo.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C25C0B9640AA0075013C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8E78C35F0B96442D0075013C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				$BUILT_PRODUCTS_DIR/TrueDisc.app,
+				$BUILT_PRODUCTS_DIR/LicenseControlTool.run,
+			);
+			outputPaths = (
+				$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION/Contents/MacOS/$PRODUCT_NAME,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "touch $BUILT_PRODUCTS_DIR/LicenseControlTool.run\n\n/Users/ocean/LicenseControl/2.11/LicenseControlTool/Contents/MacOS/LicenseControlTool \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION\" ePI\n\ncp -R /Users/ocean/TrueDisc/TrueDisc/LicenseAgreement.rtfd \"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.$WRAPPER_EXTENSION/Contents/Resources/LicenseControl/Agreements\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				8E43B46A0B890E6400CB2ADA /* DSBurnDataProvider.m in Sources */,
+				8E43B4940B890F2200CB2ADA /* DSBurnInfo.m in Sources */,
+				8E43B4C90B89116100CB2ADA /* TrueDisc.m in Sources */,
+				8E43B7D60B895D8000CB2ADA /* fec.m in Sources */,
+				8E43BE030B8BA6D800CB2ADA /* DSTrueDiscDecoder.m in Sources */,
+				8E43C6960B8FB37500CB2ADA /* NSString+DSExtensions.m in Sources */,
+				8EBF963D0B91241000821B05 /* TrueDiscView.m in Sources */,
+				8EBF969A0B912D5900821B05 /* TrueDiscWindow.m in Sources */,
+				8EBF97B60B91859000821B05 /* TrueDiscNavigationView.m in Sources */,
+				8EBF99600B91991F00821B05 /* NSColor+TrueDiscExtensions.m in Sources */,
+				8EBF9AE00B91C1B300821B05 /* TrueDiscStateDebugController.m in Sources */,
+				8EBF9B950B92CFE900821B05 /* TrueDiscNavigationText.m in Sources */,
+				8EE8CDD20B93ED7100487EC3 /* TrueDiscAnimationWindow.m in Sources */,
+				8EE8CDF00B93EE0900487EC3 /* TrueDiscAnimationView.m in Sources */,
+				8EE8CE140B93EFA700487EC3 /* TrueDiscUserInterfaceView.m in Sources */,
+				8EE8D0FC0B945A7D00487EC3 /* ATAnimation.m in Sources */,
+				8EE8D0FD0B945A7D00487EC3 /* ATAnimationGroup.m in Sources */,
+				8EE8D3BC0B94A0E500487EC3 /* TrueDiscMainMenuView.m in Sources */,
+				8EA60A060B95AAD400C40305 /* TrueDiscBurnMenuView.m in Sources */,
+				8ECD2DCB0B95B86400F50C67 /* TrueDiscBurnAnimationView.m in Sources */,
+				8EB7E42A0B9751DA006F7B0F /* NSCursor+TrueDiscExtensions.m in Sources */,
+				8EB7E6D50B977CE2006F7B0F /* TrueDiscController.m in Sources */,
+				8EB7E7B50B97896D006F7B0F /* UKUpdateChecker.m in Sources */,
+				8EA34B9B0B97962E009A57F6 /* TrueDiscLogoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C2270B96400A0075013C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78C2280B96400A0075013C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E78C25D0B9640AA0075013C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E78C26D0B96419E0075013C /* TrueDisc.m in Sources */,
+				8E78C26F0B9641A10075013C /* TrueDiscView.m in Sources */,
+				8E78C2700B9641A20075013C /* TrueDiscUserInterfaceView.m in Sources */,
+				8E78C2710B9641A30075013C /* TrueDiscNavigationView.m in Sources */,
+				8E78C2720B9641A40075013C /* TrueDiscNavigationText.m in Sources */,
+				8E78C2730B9641A60075013C /* TrueDiscMainMenuView.m in Sources */,
+				8E78C2740B9641A70075013C /* TrueDiscBurnMenuView.m in Sources */,
+				8E78C2750B9641A80075013C /* TrueDiscBurnAnimationView.m in Sources */,
+				8E78C2760B9641AA0075013C /* TrueDiscWindow.m in Sources */,
+				8E78C2770B9641AB0075013C /* TrueDiscAnimationView.m in Sources */,
+				8E78C2780B9641AC0075013C /* TrueDiscAnimationWindow.m in Sources */,
+				8E78C2790B9641AE0075013C /* DSBurnInfo.m in Sources */,
+				8E78C27A0B9641AF0075013C /* DSTrueDiscDecoder.m in Sources */,
+				8E78C27B0B9641B00075013C /* DSBurnDataProvider.m in Sources */,
+				8E78C27C0B9641B10075013C /* fec.m in Sources */,
+				8E78C27D0B9641B20075013C /* NSString+DSExtensions.m in Sources */,
+				8E78C27E0B9641B40075013C /* NSColor+TrueDiscExtensions.m in Sources */,
+				8E78C2A40B9641CF0075013C /* ATAnimation.m in Sources */,
+				8E78C2A50B9641D00075013C /* ATAnimationGroup.m in Sources */,
+				8E78C2B40B9642880075013C /* main-LCd.m in Sources */,
+				8EB7E39E0B9743F7006F7B0F /* NSCursor+TrueDiscExtensions.m in Sources */,
+				8EB7E7B30B97896D006F7B0F /* UKUpdateChecker.m in Sources */,
+				8EB7E7C30B978A83006F7B0F /* TrueDiscController.m in Sources */,
+				8EA34B9C0B97962E009A57F6 /* TrueDiscLogoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E74BB680B98E09800824300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TrueDiscLauncher;
+			targetProxy = 8E74BB670B98E09800824300 /* PBXContainerItemProxy */;
+		};
+		8E78C26A0B9640E70075013C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E78C25F0B9640AA0075013C /* SubBundle */;
+			targetProxy = 8E78C2690B9640E70075013C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+		8E9437440B931A1E00BE38B8 /* TrueDisc.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E9437450B931A1E00BE38B8 /* English */,
+			);
+			name = TrueDisc.nib;
+			sourceTree = "<group>";
+		};
+		8EB7E7F70B978EA8006F7B0F /* UKUpdateChecker.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB7E7F80B978EA8006F7B0F /* English */,
+			);
+			name = UKUpdateChecker.strings;
+			sourceTree = "<group>";
+		};
+		8EB7E8010B978F45006F7B0F /* UKFeedbackProvider.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EB7E8020B978F45006F7B0F /* English */,
+			);
+			name = UKFeedbackProvider.nib;
+			sourceTree = "<group>";
+		};
+		8EBF9AE30B91C26100821B05 /* Debug.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EBF9AE40B91C26100821B05 /* English */,
+			);
+			name = Debug.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E78C2460B96400A0075013C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../LicenseControl/2.11\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../LicenseControl/2.11\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LICENSE_CONTROL=1";
+				INFOPLIST_FILE = "Info-LCd.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PRODUCT_NAME = TrueDisc;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		8E78C2470B96400A0075013C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../LicenseControl/2.11\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../LicenseControl/2.11\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LICENSE_CONTROL=1";
+				INFOPLIST_FILE = "Info-LCd.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PRODUCT_NAME = TrueDisc;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8E78C2630B9640AA0075013C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../LicenseControl/2.11\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../LicenseControl/2.11\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LICENSE_CONTROL=1";
+				INFOPLIST_FILE = "SubBundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SubBundle;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		8E78C2640B9640AA0075013C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../LicenseControl/2.11\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../Build/Debug\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)/../../LicenseControl/2.11\"";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "LICENSE_CONTROL=1";
+				INFOPLIST_FILE = "SubBundle-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = SubBundle;
+				WRAPPER_EXTENSION = bundle;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PRODUCT_NAME = TrueDisc;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../Build/Debug\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PRODUCT_NAME = TrueDisc;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TrueDisc_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = /Users/ocean/AmpedeBase;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.2;
+				OTHER_CFLAGS = "-DMAC_OS_X_VERSION_MIN_REQUIRED=1020";
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				USER_HEADER_SEARCH_PATHS = /Users/ocean/AmpedeBase;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E78C2450B96400A0075013C /* Build configuration list for PBXNativeTarget "TrueDisc LCd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E78C2460B96400A0075013C /* Debug */,
+				8E78C2470B96400A0075013C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E78C2620B9640AA0075013C /* Build configuration list for PBXNativeTarget "SubBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E78C2630B9640AA0075013C /* Debug */,
+				8E78C2640B9640AA0075013C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TrueDisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "TrueDisc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

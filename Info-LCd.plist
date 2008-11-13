@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>truedisc-icon.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.truedisc.truedisc.app</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.2b</string>
+	<key>LSMultipleInstancesProhibited</key>
+	<false/>
+	<key>LicenseControlledBundle</key>
+	<string>SubBundle</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>SUFeedURL</key>
+	<string>http://www.truedisc.com/appcast.xml</string>
+	<key>SmartCrashReports_CompanyName</key>
+	<string>TrueDisc</string>
+	<key>SmartCrashReports_EmailTicket</key>
+	<string>SCR-D6BA2F096D</string>
+</dict>
+</plist>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>companyAddress</key>
+	<string></string>
+	<key>companyCountry</key>
+	<string>United States</string>
+	<key>companyEmail</key>
+	<string>support@truedisc.com</string>
+	<key>companyFax</key>
+	<string></string>
+	<key>companyName</key>
+	<string>TrueDisc</string>
+	<key>companyPhone</key>
+	<string></string>
+	<key>companyWebSite</key>
+	<string>http://www.truedisc.com</string>
+	<key>fileBundleID</key>
+	<string>com.truedisc.truedisc.app</string>
+	<key>fileCreator</key>
+	<string></string>
+	<key>fileReleaseDateD</key>
+	<string>02</string>
+	<key>fileReleaseDateM</key>
+	<string>03</string>
+	<key>fileReleaseDateY</key>
+	<string>2007</string>
+	<key>fileType</key>
+	<string>APPL</string>
+	<key>padVersion</key>
+	<string>2</string>
+	<key>productDescLong</key>
+	<dict>
+		<key>en</key>
+		<string>Burn CDs and DVDs with damage-resistant "master copies" of your files.</string>
+	</dict>
+	<key>productDescShort</key>
+	<dict>
+		<key>en</key>
+		<string>Burn CDs and DVDs with damage-resistant "master copies" of your files.</string>
+	</dict>
+	<key>productDownloadURL</key>
+	<array>
+		<string>http://www.truedisc.com/TrueDisc_1.0.dmg</string>
+	</array>
+	<key>productFileSize</key>
+	<string>2.08 MB</string>
+	<key>productLanguages</key>
+	<array>
+		<string>English</string>
+	</array>
+	<key>productLicense</key>
+	<string>Freeware</string>
+	<key>productName</key>
+	<string>TrueDisc</string>
+	<key>productOS</key>
+	<array>
+		<string>Mac OS X</string>
+	</array>
+	<key>productPageURL</key>
+	<string>http://www.truedisc.com/index.html</string>
+	<key>productPrice</key>
+	<string>52.00</string>
+	<key>productReleaseNotes</key>
+	<string>Initial release.</string>
+	<key>productRequirements</key>
+	<string>Mac OS X 10.2.8 or later.</string>
+	<key>productReviews</key>
+	<string></string>
+	<key>productVersion</key>
+	<string>1.0</string>
+	<key>productWebStore</key>
+	<string>http://www.truedisc.com/buy.html</string>
+</dict>
+</plist>
